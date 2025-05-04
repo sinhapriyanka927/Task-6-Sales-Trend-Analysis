@@ -20,3 +20,10 @@ GROUP BY
   year, month
 ORDER BY 
   year, month;
+| Year | Month | Total Revenue | Total Orders |
+| ---- | ----- | ------------- | ------------ |
+| 2023 | 01    | \$12,450      | 98           |
+| 2023 | 02    | \$15,200      | 110          |
+| 2023 | 03    | \$13,880      | 105          |
+Analysis Summary
+The SQL query groups sales data by year and month, calculating both total revenue and the number of unique orders. February shows peak performance, possibly due to seasonal or promotional campaigns. This analysis supports business decisions on demand forecasting, inventory management, and marketing.
